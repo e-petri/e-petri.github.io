@@ -27,3 +27,11 @@ html:not(.sapUiTheme-sap_hcb):not(.sapUiTheme-sap_hcw):not(.sapUiTheme-sap_beliz
 .sapThemeBaseBG-asBackgroundColor{
 	background-color: yellow;
 }
+
+.sapThemeBarBG {
+	background-color: green;
+}
+
+.sapThemeBaseBG-asColor {
+	color: blue;
+}
