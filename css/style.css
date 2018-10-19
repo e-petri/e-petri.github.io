@@ -19,3 +19,11 @@ html:not(.sapUiTheme-sap_hcb):not(.sapUiTheme-sap_hcw):not(.sapUiTheme-sap_beliz
 	width: 100%;
 	text-shadow: 0 0 0.125rem black;
 }
+
+.sapThemeBaseBG {
+	background-color: green;
+}
+
+.sapThemeBaseBG-asBackgroundColor{
+	background-color: yellow;
+}
