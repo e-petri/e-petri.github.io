@@ -3,14 +3,14 @@
 		{
 			"notifications": [
 				{
-					"title": "New Order",
-					"description": "John Max has ordered Laptop",
+					"title": "neue nachricht",
+					"description": "John Max ed Laptop",
 					"date": "1 hour ago",
 					"priority": "High",
 					"icon": "sap-icon://clinical-order"
 				},
 				{
-					"title": "Canceled Order",
+					"title": "Canceled",
 					"description": "Sara Rok has canceled her order",
 					"date": "5 hour ago",
 					"priority": "Medium",

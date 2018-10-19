@@ -17,7 +17,7 @@
 		},
 		{
 			"title": "Portfolio",
-			"icon": "sap-icon://customer-briefing",
+			"icon": "sap-icon://responsive",
 			"expanded": true,
 			"key": "statistics",
 			"items": [
