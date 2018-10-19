@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"sap/ui/demo/cart/model/models",
+	"sap/ui/demo/toolpageapp/model/models",
 	"sap/ui/thirdparty/sinon",
 	"sap/ui/thirdparty/sinon-qunit"
 ], function (models) {
@@ -21,7 +21,6 @@ sap.ui.define([
 		this.oDeviceModel = models.createDeviceModel();
 
 		// Assert
-
 		assert.strictEqual(this.oDeviceModel.getProperty("/system/phone"), bIsPhone, "IsPhone property is correct");
 	}
 
@@ -53,7 +52,6 @@ sap.ui.define([
 	});
 
 	QUnit.test("The binding mode of the device model should be one way", function (assert) {
-
 		// System under test
 		this.oDeviceModel = models.createDeviceModel();
 

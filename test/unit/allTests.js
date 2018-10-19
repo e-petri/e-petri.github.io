@@ -1,9 +1,6 @@
 sap.ui.define([
-	"./model/formatter",
-	"./model/EmailType",
-	"./model/LocalStorageModel",
-	"./model/models",
-	"./controller/Checkout.controller"
+	"test/unit/model/formatter",
+	"test/unit/model/models"
 ], function() {
 	"use strict";
 });
