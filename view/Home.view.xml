@@ -28,7 +28,7 @@
 			</l:BlockLayoutRow>
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
+					backgroundColorSet="ColorSet1"
 					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
@@ -53,7 +53,7 @@
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
+					backgroundColorSet="ColorSet2"
 					backgroundColorShade="ShadeB">
 					<l:VerticalLayout>
 						<core:Icon
@@ -78,7 +78,7 @@
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
+					backgroundColorSet="ColorSet3"
 					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
