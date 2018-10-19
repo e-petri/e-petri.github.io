@@ -1,32 +1,36 @@
 {
 	"navigation": [
 		{
-			"title": "Home",
+			"title": "Start",
 			"icon": "sap-icon://home",
-			"expanded": true,
+			"expanded": false,
 			"key": "home",
 			"items": []
 		},
 		{
-			"title": "Settings",
-			"icon": "sap-icon://settings",
+			"title": "Lebenslauf",
+			"icon": "sap-icon://activity-individual",
 			"expanded": false,
 			"key": "masterSettings"
 		,
 			"items": []
 		},
 		{
-			"title": "Statistics",
-			"icon": "sap-icon://line-chart",
+			"title": "Portfolio",
+			"icon": "sap-icon://customer-briefing",
 			"expanded": true,
 			"key": "statistics",
 			"items": [
 				{
-					"title": "Usage Statistics",
+					"title": "Beruflich",
 					"key": "Usage Statistics was pressed"
 				},
 				{
-					"title": "Order Statistics",
+					"title": "Abschlussarbeiten",
+					"key": "Order Statistics was pressed"
+				},
+				{
+					"title": "Privat",
 					"key": "Order Statistics was pressed"
 				}
 			]
