@@ -28,8 +28,8 @@
 			</l:BlockLayoutRow>
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet1"
-					backgroundColorShade="ShadeD">
+					backgroundColorSet="ColorSet9"
+					backgroundColorShade="ShadeB">
 					<l:VerticalLayout>
 						<core:Icon
 							src="sap-icon://role"
@@ -53,8 +53,8 @@
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet2"
-					backgroundColorShade="ShadeB">
+					backgroundColorSet="ColorSet9"
+					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
 							src="sap-icon://add-product"
@@ -78,8 +78,8 @@
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet3"
-					backgroundColorShade="ShadeD">
+					backgroundColorSet="ColorSet9"
+					backgroundColorShade="ShadeB">
 					<l:VerticalLayout>
 						<core:Icon
 							src="sap-icon://customer-financial-fact-sheet"
@@ -102,8 +102,8 @@
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
-					backgroundColorShade="ShadeB">
+					backgroundColorSet="ColorSet9"
+					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
 							src="sap-icon://supplier"
@@ -128,8 +128,8 @@
 			</l:BlockLayoutRow>
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
-					backgroundColorShade="ShadeB">
+					backgroundColorSet="ColorSet9"
+					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
 							src="sap-icon://thumb-up"
