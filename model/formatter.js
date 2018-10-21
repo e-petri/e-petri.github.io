@@ -20,9 +20,9 @@ sap.ui.define([
 			srcImageValueSecond : function (bIsPhone) {
 				var sImageSrc = "";
 				if (bIsPhone === false) {
-					sImageSrc = "./images/homeImage_keyboard.jpg";
+					sImageSrc = "./images/secondBook.jpg";
 				} else {
-					sImageSrc = "./images/homeImage_keyboard.jpg";
+					sImageSrc = "./images/secondBook.jpg";
 				}
 				return sImageSrc;
 			}
