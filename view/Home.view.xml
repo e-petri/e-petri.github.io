@@ -29,10 +29,10 @@
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet9"
-					backgroundColorShade="ShadeB">
+					backgroundColorShade="ShadeD">
 					<l:VerticalLayout>
 						<core:Icon
-							src="sap-icon://role"
+							src="sap-icon://customer"
 							size="2.5rem"
 							color="Default"/>
 						<Title
@@ -44,20 +44,20 @@
 						<Text
 							text="{i18n>administrationContent}"
 							class="sapUiTinyMarginBottom"/>
-						<Link
+						<!--<Link
 							text="{i18n>accessLink}"
 							tooltip="{i18n>accessAdministrationLink}"/>
 						<Link
 							text="{i18n>learnLink}"
-							tooltip="{i18n>learnAdministrationTooltip}"/>
+							tooltip="{i18n>learnAdministrationTooltip}"/>-->
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet9"
-					backgroundColorShade="ShadeD">
+					backgroundColorShade="ShadeC">
 					<l:VerticalLayout>
 						<core:Icon
-							src="sap-icon://add-product"
+							src="sap-icon://decision"
 							size="2.5rem"
 							color="Default"/>
 						<Title
@@ -69,12 +69,18 @@
 						<Text
 							text="{i18n>productContent}"
 							class="sapUiTinyMarginBottom"/>
-						<Link
+						<Text
+							text="{i18n>Product2}"
+							class="sapUiTinyMarginBottom"/>
+							<Text
+							text="{i18n>ProductContent3}"
+							class="sapUiTinyMarginBottom"/>
+						<!--<Link
 							text="{i18n>accessLink}"
 							tooltip="{i18n>accessProductsLink}"/>
 						<Link
 							text="{i18n>learnLink}"
-							tooltip="{i18n>learnProductsTooltip}"/>
+							tooltip="{i18n>learnProductsTooltip}"/>-->
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
@@ -82,7 +88,7 @@
 					backgroundColorShade="ShadeB">
 					<l:VerticalLayout>
 						<core:Icon
-							src="sap-icon://customer-financial-fact-sheet"
+							src="sap-icon://cloud"
 							size="2.5rem"
 							color="Default"/>
 						<Title
@@ -90,7 +96,32 @@
 							level="H3"
 							titleStyle="H2"
 							class="sapUiTinyMarginTopBottom"/>
-						<Text
+						<Tokenizer editable="false">
+							<Token text="SAP AIN"/>
+							<Token text="SAP CP" />
+							<Token text="SAP Fiori" />
+							<Token text="SAP Leonardo IoT"/>
+						</Tokenizer>
+						<Tokenizer editable="false">
+							<Token text="IoT"/>
+							<Token text="Industrie 4.0"/>
+							<Token text="UI/UX"/>
+							<Token text="Computergrafik" />
+						</Tokenizer>
+						<Tokenizer editable="false">
+							<Token text="3D-Messtechnik" />
+							<Token text="3D-Visualisierung"/>
+							<Token text="Machine Learning"/>
+						</Tokenizer>
+						<Tokenizer editable="false">
+							<Token text="Deep Learning"/>
+							<Token text="Software Design"/>
+						</Tokenizer>
+						<Tokenizer editable="false">
+							<Token text="Software Architekture" />
+							<Token text="Requirements Engineering" />
+						</Tokenizer>
+						<!--<Text  SAP AIN, SAP CP, SAP Leonardo IoT, SAP Fiori, IoT, Industrie 4.0, 3D Visualisierung, 3D-Messtechnik, Machine Learining, Computergrafik, Deep Learning, Requirements Engineering, UI/UX, Software Design, Software Architekture
 							text="{i18n>revenueContent}"
 							class="sapUiTinyMarginBottom"/>
 						<Link
@@ -98,15 +129,15 @@
 							tooltip="{i18n>accessRevenueLink}"/>
 						<Link
 							text="{i18n>learnLink}"
-							tooltip="{i18n>learnRevenueTooltip}"/>
+							tooltip="{i18n>learnRevenueTooltip}"/>-->
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet9"
-					backgroundColorShade="ShadeD">
+					backgroundColorShade="ShadeA">
 					<l:VerticalLayout>
 						<core:Icon
-							src="sap-icon://supplier"
+							src="sap-icon://source-code"
 							size="2.5rem"
 							color="Default"/>
 						<Title
@@ -114,7 +145,20 @@
 							level="H3"
 							titleStyle="H2"
 							class="sapUiTinyMarginTopBottom"/>
-						<Text
+						
+					<Tokenizer  editable="false">
+						<Token text="SAPUI5"/>
+						<Token text="JavaScript" />
+						<Token text="HTML5"/>
+						<Token text="CSS3" />
+					</Tokenizer>
+					<Tokenizer  editable="false">
+						<Token text="Python"/>
+						<Token text="C++" />
+						<Token text="C" />
+					</Tokenizer>
+						
+					<!--	<Text SAPUI5, C++, C, Python, HTML5, JavaScript, CSS
 							text="{i18n>supplierContent}"
 							class="sapUiTinyMarginBottom"/>
 						<Link
@@ -122,17 +166,17 @@
 							tooltip="{i18n>accessSuppliersLink}"/>
 						<Link
 							text="{i18n>learnLink}"
-							tooltip="{i18n>learnSuppliersTooltip}"/>
+							tooltip="{i18n>learnSuppliersTooltip}"/>-->
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 			</l:BlockLayoutRow>
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet9"
-					backgroundColorShade="ShadeD">
+					backgroundColorShade="ShadeA">
 					<l:VerticalLayout>
 						<core:Icon
-							src="sap-icon://thumb-up"
+							src="sap-icon://comment"
 							size="2.5rem"
 							color="Default"/>
 						<Title
@@ -153,7 +197,7 @@
 				</l:BlockLayoutCell>
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet9"
-					backgroundColorShade="ShadeA"
+					backgroundColorShade="ShadeB"
 					width="3">
 					<Table
 						items="{path:'customer>/customers', templateShareable: false}"

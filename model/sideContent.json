@@ -9,7 +9,7 @@
 		},
 		{
 			"title": "Lebenslauf",
-			"icon": "sap-icon://activity-individual",
+			"icon": "sap-icon://business-card",
 			"expanded": false,
 			"key": "masterSettings"
 		,
