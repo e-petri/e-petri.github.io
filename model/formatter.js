@@ -13,7 +13,16 @@ sap.ui.define([
 				if (bIsPhone === false) {
 					sImageSrc = "./images/homeImage.jpg";
 				} else {
-					sImageSrc = "./images/homeImage_small.jpg";
+					sImageSrc = "./images/homeImage.jpg";
+				}
+				return sImageSrc;
+			},
+			srcImageValueSecond : function (bIsPhone) {
+				var sImageSrc = "";
+				if (bIsPhone === false) {
+					sImageSrc = "./images/homeImage_keyboard.jpg";
+				} else {
+					sImageSrc = "./images/homeImage_keyboard.jpg";
 				}
 				return sImageSrc;
 			}

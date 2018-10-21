@@ -207,7 +207,7 @@
 					<Image
 						src="{
 							path: 'view>/isPhone',
-							formatter: '.formatter.srcImageValue'
+							formatter: '.formatter.srcImageValueSecond'
 						}"
 						width="100%"
 						height="100%"/>
