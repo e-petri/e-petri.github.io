@@ -103,25 +103,29 @@
 							<Token text="SAP AIN"/>
 							<Token text="SAP CP" />
 							<Token text="SAP Fiori" />
-							<Token text="SAP Leonardo IoT"/>
 						</Tokenizer>
 						<Tokenizer editable="false">
+							<Token text="SAP Leonardo IoT"/>
 							<Token text="IoT"/>
 							<Token text="Industrie 4.0"/>
+						</Tokenizer>
+						<Tokenizer editable="false">
 							<Token text="UI/UX"/>
 							<Token text="Computergrafik" />
 						</Tokenizer>
 						<Tokenizer editable="false">
 							<Token text="3D-Messtechnik" />
 							<Token text="3D-Visualisierung"/>
+						</Tokenizer>
+						<Tokenizer editable="false">
 							<Token text="Machine Learning"/>
-						</Tokenizer>
-						<Tokenizer editable="false">
 							<Token text="Deep Learning"/>
-							<Token text="Software Design"/>
 						</Tokenizer>
 						<Tokenizer editable="false">
+							<Token text="Software Design"/>
 							<Token text="Software Architekture" />
+						</Tokenizer>
+						<Tokenizer editable="false">
 							<Token text="Requirements Engineering" />
 						</Tokenizer>
 						<!--<Text  SAP AIN, SAP CP, SAP Leonardo IoT, SAP Fiori, IoT, Industrie 4.0, 3D Visualisierung, 3D-Messtechnik, Machine Learining, Computergrafik, Deep Learning, Requirements Engineering, UI/UX, Software Design, Software Architekture
