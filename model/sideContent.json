@@ -78,12 +78,12 @@
 	"masterPrjPrivate": [
 		{
 			"title": "Yourtube",
-			"key": "systemSettings",
+			"key": "SystemAppPrivYourtube",
 			"selected": true
 		},
 		{
 			"title": "statistics",
-			"key": "statistics",
+			"key": "systemAppPriv",
 			"selected": false
 		},
 		{

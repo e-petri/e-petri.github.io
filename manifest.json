@@ -97,6 +97,16 @@
 					"target": "detailSettings"
 				},
 				{
+					"pattern": "SystemAppPriv",
+					"name": "systemAppPriv",
+					"target": "detailPrjPrivate"
+				},
+				{
+					"pattern": "SystemAppPrivYourtube",
+					"name": "SystemAppPrivYourtube",
+					"target": "detailPrjPrivYourtube"
+				},
+				{
 					"pattern": "Statistics",
 					"name": "statistics",
 					"target": "statistics"
@@ -169,6 +179,17 @@
 				"detailPrjPrivate": {
 					"viewId": "detailPrjPrivate",
 					"viewName": "projectsPrivate.DetailPrjPrivate",
+					"controlId": "appPrjPrivate",
+					"controlAggregation": "detailPages",
+					"parent": "appPrjPrivate",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"detailPrjPrivYourtube": {
+					"viewId": "detailPrjPrivYourtube",
+					"viewName": "projectsPrivate.DetailPrjPrivYourtube",
 					"controlId": "appPrjPrivate",
 					"controlAggregation": "detailPages",
 					"parent": "appPrjPrivate",

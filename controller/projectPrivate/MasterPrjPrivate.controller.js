@@ -30,6 +30,10 @@ sap.ui.define([
 					this.getRouter().navTo(sKey);
 					break;
 				}
+				case "Yourtube": {
+					this.getRouter().navTo(sKey);
+					break;
+				}
 				default: {
 					MessageToast.show(sSelectedMasterElement + " was pressed");
 					break;
