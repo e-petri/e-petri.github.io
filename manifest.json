@@ -110,6 +110,11 @@
 					"pattern": "Statistics",
 					"name": "statistics",
 					"target": "statistics"
+				},
+				{
+					"pattern": "Legal",
+					"name": "legal",
+					"target": "legal"
 				}
 			],
 			"targets": {
@@ -208,18 +213,15 @@
 					"viewPath": "sap.ui.demo.toolpageapp.view",
 					"async": true
 				},
-				"privateProject": {
-					"viewType": "XML",
-					"viewName": "privateProject",
+				"legal": {
+					"viewId": "legal",
+					"viewName": "Legal",
 					"routerClass": "sap.m.routing.Router",
 					"controlId": "mainContents",
+					"viewType": "XML",
 					"controlAggregation": "pages",
 					"viewPath": "sap.ui.demo.toolpageapp.view",
 					"async": true
-				},
-				"privateProjects": {
-					"viewType": "XML",
-					"viewName": "privateProjects"
 				}
 			}
 		}
