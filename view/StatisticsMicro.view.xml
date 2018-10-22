@@ -40,15 +40,15 @@
 								displayValue="13"
 								value="6" />
 							<mc:ComparisonMicroChartData
-									color="Good"
-									title="{i18n>reLoads}"
-									displayValue="6"
-									value="6" />
+								color="Good"
+								title="{i18n>reLoads}"
+								displayValue="6"
+								value="6" />
 							<mc:ComparisonMicroChartData
-									color="Error"
-									title="{i18n>maxMemUsage}"
-									displayValue="18"
-									value="18" />
+								color="Error"
+								title="{i18n>maxMemUsage}"
+								displayValue="18"
+								value="18" />
 						</mc:data>
 					</mc:ComparisonMicroChart>
 			</l:BlockLayoutCell>

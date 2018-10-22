@@ -88,19 +88,27 @@ sap.ui.define([
 				var fnHandleUserMenuItemPress = function (oEvent) {
 					MessageToast.show(oEvent.getSource().getText() + " was pressed");
 				};
+				var fnHandleUserMenuItemMail = function (oEvent) {
+					//MessageToast.show(oEvent.getSource().getText() + " was pressed");
+					window.location.replace("mailto:1205367@gmail.com");
+				};
+				var fnHandleUserMenuItemUI5 = function (oEvent) {
+					//MessageToast.show(oEvent.getSource().getText() + " was pressed");
+					window.location.replace("https://sapui5.hana.ondemand.com");
+				};
 				var oActionSheet = new ActionSheet(this.getView().createId("userMessageActionSheet"), {
 					title: oBundle.getText("userHeaderTitle"),
 					showCancelButton: false,
 					buttons: [
 						new Button({
-							text: 'User Settings',
+							text: 'Kontaktieren',
 							type: sap.m.ButtonType.Transparent,
-							press: fnHandleUserMenuItemPress
-						}),
+							press: fnHandleUserMenuItemMail
+						})/*,
 						new Button({
-							text: "Online Guide",
+							text: "Was ist UI5?",
 							type: sap.m.ButtonType.Transparent,
-							press: fnHandleUserMenuItemPress
+							press: fnHandleUserMenuItemUI5
 						}),
 						new Button({
 							text: 'Feedback',
@@ -116,7 +124,7 @@ sap.ui.define([
 							text: 'Logout',
 							type: sap.m.ButtonType.Transparent,
 							press: fnHandleUserMenuItemPress
-						})
+						})*/
 					],
 					afterClose: function () {
 						oActionSheet.destroy();
@@ -178,7 +186,8 @@ sap.ui.define([
 				var oButton = new Button({
 					text: oBundle.getText("notificationButtonText"),
 					press: function () {
-						MessageToast.show("Show all Notifications was pressed");
+						oNotificationPopover.destroy();
+						//	MessageToast.show("Show all Notifications was pressed");
 					}
 				});
 				var oNotificationPopover = new ResponsivePopover(this.getView().createId("notificationMessagePopover"), {
@@ -226,7 +235,7 @@ sap.ui.define([
 					authorPicture: oBindingObject.icon,
 					press: function () {
 						var oBundle = this.getModel("i18n").getResourceBundle();
-						MessageToast.show(oBundle.getText("notificationItemClickedMessage", oBindingObject.title));
+						//MessageToast.show(oBundle.getText("notificationItemClickedMessage", oBindingObject.title));
 					},
 					customData : [
 						new CustomData({

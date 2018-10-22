@@ -2,35 +2,31 @@
 	"alerts":
 		{
 			"notifications": [
+				
 				{
-					"title": "neue nachricht",
-					"description": "John Max ed Laptop",
-					"date": "1 hour ago",
-					"priority": "High",
-					"icon": "sap-icon://clinical-order"
-				},
-				{
-					"title": "Canceled",
-					"description": "Sara Rok has canceled her order",
-					"date": "5 hour ago",
+					"title": "Portfolio",
+					"description": "Das Portfolio befindet sich in stetiger Erweiterung",
+					"date": "vor 2 Stunden",
 					"priority": "Medium",
-					"icon": "sap-icon://sys-cancel-2"
+					"icon": "sap-icon://activate"
 				},
 				{
-					"title": "Delivery",
-					"description": "Order 112 has delivered to nancy klaus",
-					"date": "2 day ago",
+					"title": "Timeline erweitert",
+					"description": "Der Lebenslauf von Emanuel Petri steht nun als Timeline zur Verfügung",
+					"date": "vor 8 Tagen",
 					"priority": "Low",
-					"icon": "sap-icon://message-success"
+					"icon": "sap-icon://accept"
+				},
+				{
+					"title": "Startseite",
+					"description": "Die Startseite um neue Funktionen erweitert",
+					"date": "Vor 12 Tagen",
+					"priority": "Low",
+					"icon": "sap-icon://accept"
 				}
 			],
 			"errors": [
-				{
-					"title": "Password Error",
-					"subTitle": "invalid password",
-					"description": "User S700 exceeded number of tries to enter password",
-					"counter": 1
-				}
+			
 			]
 		}
 
