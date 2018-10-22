@@ -84,6 +84,14 @@
 					]
 				},
 				{
+					"pattern": "MasterPrjPrivate",
+					"name": "masterPrjPrivate",
+					"target": [
+						"detailPrjPrivate",
+						"masterPrjPrivate"
+					]
+				},
+				{
 					"pattern": "SystemSettings",
 					"name": "systemSettings",
 					"target": "detailSettings"
@@ -97,29 +105,100 @@
 			"targets": {
 				"home": {
 					"viewId": "home",
-					"viewName": "Home"
+					"viewName": "Home",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
 				},
 				"appSettings": {
 					"viewId": "appSettings",
-					"viewName": "settings.AppSettings"
+					"viewName": "settings.AppSettings",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
 				},
 				"masterSettings": {
 					"viewId": "masterSettings",
 					"viewName": "settings.MasterSettings",
 					"controlId": "appSettings",
 					"controlAggregation": "masterPages",
-					"parent": "appSettings"
+					"parent": "appSettings",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
 				},
 				"detailSettings": {
 					"viewId": "detailSettings",
 					"viewName": "settings.DetailSettings",
 					"controlId": "appSettings",
 					"controlAggregation": "detailPages",
-					"parent": "appSettings"
+					"parent": "appSettings",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"appPrjPrivate": {
+					"viewId": "appPrjPrivate",
+					"viewName": "projectsPrivate.AppPrjPrivate",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"masterPrjPrivate": {
+					"viewId": "masterPrjPrivate",
+					"viewName": "projectsPrivate.MasterPrjPrivate",
+					"controlId": "appPrjPrivate",
+					"controlAggregation": "masterPages",
+					"parent": "appPrjPrivate",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"detailPrjPrivate": {
+					"viewId": "detailPrjPrivate",
+					"viewName": "projectsPrivate.DetailPrjPrivate",
+					"controlId": "appPrjPrivate",
+					"controlAggregation": "detailPages",
+					"parent": "appPrjPrivate",
+					"routerClass": "sap.m.routing.Router",
+					"viewType": "XML",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
 				},
 				"statistics": {
 					"viewId": "statistics",
-					"viewName": "Statistics"
+					"viewName": "Statistics",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"privateProject": {
+					"viewType": "XML",
+					"viewName": "privateProject",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"privateProjects": {
+					"viewType": "XML",
+					"viewName": "privateProjects"
 				}
 			}
 		}
