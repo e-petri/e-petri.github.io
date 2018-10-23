@@ -41,18 +41,18 @@
 										background="Default">
 										<l:BlockLayoutRow>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet7"
+												backgroundColorSet="ColorSet9"
 												backgroundColorShade="ShadeD">
 												<l:VerticalLayout>
 													<core:Icon
 														src="sap-icon://customer"
 														size="2.5rem"
-														color="White"/>
+														color="Default"/>
 													<m:Title
 														text="{i18n>administrationTitle}"
 														level="H3"
 														titleStyle="H2"
-														class="titleWhite sapUiTinyMarginTopBottom"/>
+														class="sapUiTinyMarginTopBottom"/>
 													<m:Text
 														text="{i18n>administrationContent}"
 														class="sapUiTinyMarginBottom"/>
@@ -68,7 +68,7 @@
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet7"
+												backgroundColorSet="ColorSet9"
 												backgroundColorShade="ShadeC"
 												width="2">
 												<l:VerticalLayout>
@@ -90,18 +90,18 @@
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet7"
-												backgroundColorShade="ShadeD">
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeA">
 												<l:VerticalLayout>
 													<core:Icon
 														src="sap-icon://source-code"
 														size="2.5rem"
-														color="White"/>
+														color="Default"/>
 													<m:Title
 														text="{i18n>supplierTitle}"
 														level="H3"
 														titleStyle="H2"
-														class="titleWhite sapUiTinyMarginTopBottom"/>
+														class="sapUiTinyMarginTopBottom"/>
 													
 													<m:Tokenizer  editable="false">
 														<m:Token text="SAPUI5"/>
@@ -201,19 +201,19 @@
 										background="Default">
 										<l:BlockLayoutRow>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet5"
-												backgroundColorShade="ShadeD">
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeA">
 												<l:VerticalLayout>
 													<core:Icon
 														src="sap-icon://customer"
 														size="2.5rem"
-														color="White"/>
+														color="Default"/>
 													<m:Title
 														id="administrationTile"
 														text="{i18n>administrationTitle}"
 														level="H3"
 														titleStyle="H2"
-														class="titleWhite sapUiTinyMarginTopBottom"/>
+														class="sapUiTinyMarginTopBottom"/>
 													<m:Text
 														text="{i18n>administrationContent}"
 														class="sapUiTinyMarginBottom"/>
@@ -229,7 +229,7 @@
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet5"
+												backgroundColorSet="ColorSet9"
 												backgroundColorShade="ShadeC"
 												width="2">
 												<l:VerticalLayout>
@@ -251,18 +251,18 @@
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell
-												backgroundColorSet="ColorSet5"
-												backgroundColorShade="ShadeB">
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeD">
 												<l:VerticalLayout>
 													<core:Icon
 														src="sap-icon://source-code"
 														size="2.5rem"
-														color="White"/>
+														color="Default"/>
 													<m:Title
 														text="{i18n>supplierTitle}"
 														level="H3"
 														titleStyle="H2"
-														class="titleWhite sapUiTinyMarginTopBottom"/>
+														class="sapUiTinyMarginTopBottom"/>
 													
 													<m:Tokenizer  editable="false">
 														<m:Token text="SAPUI5"/>
