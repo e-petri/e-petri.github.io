@@ -1,0 +1,20 @@
+.titleWhite {
+	color: white;
+	text-shadow: 0 0 0.125rem #333333
+}
+
+.sapMCrslControlsBottom {
+}
+
+.sapMCrslControls.sapMCrslControlsBottom, .sapMCrslControlsNoArrows.sapMCrslControlsBottom{
+	background-color:rgba(0, 0, 0, 0.0);
+	border-top: 0px;
+}
+
+.sapUxAPObjectPageHeaderIdentifier {
+	background-color: #FFFFFF;
+}
+
+.sapUxAPAnchorBar.sapMTB {
+	background-color: #FFFFFF;
+}
