@@ -36,7 +36,100 @@
 							<ObjectPageLazyLoader
 								id="shopOwnerLazyLoader">
 								
-								<l:VerticalLayout
+								<l:BlockLayout
+										id="BlockLayout0"
+										background="Default">
+										<l:BlockLayoutRow>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeD">
+												<l:VerticalLayout>
+													<core:Icon
+														src="sap-icon://customer"
+														size="2.5rem"
+														color="Default"/>
+													<m:Title
+														text="{i18n>administrationTitle}"
+														level="H3"
+														titleStyle="H2"
+														class="sapUiTinyMarginTopBottom"/>
+													<m:Text
+														text="{i18n>administrationContent}"
+														class="sapUiTinyMarginBottom"/>
+													<!--<Text
+														text="{i18n>administrationContent2}"
+														class="sapUiTinyMarginBottom"/>
+													<Link
+														text="{i18n>accessLink}"
+														tooltip="{i18n>accessAdministrationLink}"/>
+													<Link
+														text="{i18n>learnLink}"
+														tooltip="{i18n>learnAdministrationTooltip}"/>-->
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeC"
+												width="2">
+												<l:VerticalLayout>
+													<m:Carousel class="sapUiContentPadding" loop="true">
+														<m:pages>
+															<m:Image
+															src="{
+																path: 'view>/isPhone',
+																formatter: '.formatter.srcImageValue'
+															}"/>
+															<m:Image
+															src="{
+																path: 'view>/isPhone',
+																formatter: '.formatter.srcImageValueSecond'
+															}"/>
+														</m:pages>
+													</m:Carousel>
+												
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeD">
+												<l:VerticalLayout>
+													<core:Icon
+														src="sap-icon://source-code"
+														size="2.5rem"
+														color="Default"/>
+													<m:Title
+														text="{i18n>supplierTitle}"
+														level="H3"
+														titleStyle="H2"
+														class="sapUiTinyMarginTopBottom"/>
+													
+													<m:Tokenizer  editable="false">
+														<m:Token text="SAPUI5"/>
+														<m:Token text="JavaScript" />
+														<m:Token text="HTML5"/>
+														<m:Token text="CSS3" />
+													</m:Tokenizer>
+													<m:Tokenizer  editable="false">
+														<m:Token text="Python"/>
+														<m:Token text="C++" />
+														<m:Token text="C" />
+													</m:Tokenizer>
+													
+												<!--	<Text SAPUI5, C++, C, Python, HTML5, JavaScript, CSS
+														text="{i18n>supplierContent}"
+														class="sapUiTinyMarginBottom"/>
+													<Link
+														text="{i18n>accessLink}"
+														tooltip="{i18n>accessSuppliersLink}"/>
+													<Link
+														text="{i18n>learnLink}"
+														tooltip="{i18n>learnSuppliersTooltip}"/>-->
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+										</l:BlockLayoutRow>
+									</l:BlockLayout>
+								
+								<!--<l:VerticalLayout
 									width="100%"
 									class="gridWrapper">
 									<l:Grid
@@ -86,24 +179,9 @@
 												</m:items>
 										</m:Table>
 									
-										<m:Carousel class="sapUiContentPadding" loop="true">
-											<m:pages>
-												<m:Image
-												src="{
-													path: 'view>/isPhone',
-													formatter: '.formatter.srcImageValue'
-												}"
-												width="100%"/>
-												<m:Image
-												src="{
-													path: 'view>/isPhone',
-													formatter: '.formatter.srcImageValueSecond'
-												}"
-												width="100%"/>
-											</m:pages>
-										</m:Carousel>
+									
 									</l:Grid>
-								</l:VerticalLayout>
+								</l:VerticalLayout>-->
 								
 							</ObjectPageLazyLoader>
 						</blocks>
@@ -114,17 +192,103 @@
 					<subSections>
 						<ObjectPageSubSection
 							id="shopConfigurationId"
-							title="{i18n>shopConfigurationTitle}">
+							title="JORO3D-ScanPlus">
 							<blocks>
 								<ObjectPageLazyLoader
 									id="shopConfigurationLazyLoader">
-									<m:Image
-										src="{
-											path: 'view>/isPhone',
-											formatter: '.formatter.srcImageValue'
-										}"
-										width="100%"
-										height="100%"/>
+									<l:BlockLayout
+										id="BlockLayout"
+										background="Default">
+										<l:BlockLayoutRow>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeD">
+												<l:VerticalLayout>
+													<core:Icon
+														src="sap-icon://customer"
+														size="2.5rem"
+														color="Default"/>
+													<m:Title
+														id="administrationTile"
+														text="{i18n>administrationTitle}"
+														level="H3"
+														titleStyle="H2"
+														class="sapUiTinyMarginTopBottom"/>
+													<m:Text
+														text="{i18n>administrationContent}"
+														class="sapUiTinyMarginBottom"/>
+													<!--<Text
+														text="{i18n>administrationContent2}"
+														class="sapUiTinyMarginBottom"/>
+													<Link
+														text="{i18n>accessLink}"
+														tooltip="{i18n>accessAdministrationLink}"/>
+													<Link
+														text="{i18n>learnLink}"
+														tooltip="{i18n>learnAdministrationTooltip}"/>-->
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeC"
+												width="2">
+												<l:VerticalLayout>
+													<m:Carousel class="sapUiContentPadding" loop="true">
+														<m:pages>
+															<m:Image
+															src="{
+																path: 'view>/isPhone',
+																formatter: '.formatter.srcImageValue'
+															}"/>
+															<m:Image
+															src="{
+																path: 'view>/isPhone',
+																formatter: '.formatter.srcImageValueSecond'
+															}"/>
+														</m:pages>
+													</m:Carousel>
+												
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+											<l:BlockLayoutCell
+												backgroundColorSet="ColorSet9"
+												backgroundColorShade="ShadeD">
+												<l:VerticalLayout>
+													<core:Icon
+														src="sap-icon://source-code"
+														size="2.5rem"
+														color="Default"/>
+													<m:Title
+														text="{i18n>supplierTitle}"
+														level="H3"
+														titleStyle="H2"
+														class="sapUiTinyMarginTopBottom"/>
+													
+													<m:Tokenizer  editable="false">
+														<m:Token text="SAPUI5"/>
+														<m:Token text="JavaScript" />
+														<m:Token text="HTML5"/>
+														<m:Token text="CSS3" />
+													</m:Tokenizer>
+													<m:Tokenizer  editable="false">
+														<m:Token text="Python"/>
+														<m:Token text="C++" />
+														<m:Token text="C" />
+													</m:Tokenizer>
+													
+												<!--	<Text SAPUI5, C++, C, Python, HTML5, JavaScript, CSS
+														text="{i18n>supplierContent}"
+														class="sapUiTinyMarginBottom"/>
+													<Link
+														text="{i18n>accessLink}"
+														tooltip="{i18n>accessSuppliersLink}"/>
+													<Link
+														text="{i18n>learnLink}"
+														tooltip="{i18n>learnSuppliersTooltip}"/>-->
+												</l:VerticalLayout>
+											</l:BlockLayoutCell>
+										</l:BlockLayoutRow>
+									</l:BlockLayout>
 								</ObjectPageLazyLoader>
 							</blocks>
 						</ObjectPageSubSection>
