@@ -7,9 +7,7 @@
 	xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc">
 	<m:Page
-		showHeader="{device>/system/phone}"
-		showNavButton="{device>/system/phone}"
-		navButtonPress="onNavButtonPress">
+		showHeader="{device>/system/phone}">
 		<m:landmarkInfo>
 			<m:PageAccessibleLandmarkInfo
 				rootRole="Region"
@@ -45,26 +43,17 @@
 												backgroundColorShade="ShadeD">
 												<l:VerticalLayout>
 													<core:Icon
-														src="sap-icon://customer"
+														src="sap-icon://activities"
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
-														text="{i18n>administrationTitle}"
+														text="BihlerNET"
 														level="H3"
 														titleStyle="H2"
 														class="sapUiTinyMarginTopBottom"/>
 													<m:Text
 														text="{i18n>administrationContent}"
 														class="sapUiTinyMarginBottom"/>
-													<!--<Text
-														text="{i18n>administrationContent2}"
-														class="sapUiTinyMarginBottom"/>
-													<Link
-														text="{i18n>accessLink}"
-														tooltip="{i18n>accessAdministrationLink}"/>
-													<Link
-														text="{i18n>learnLink}"
-														tooltip="{i18n>learnAdministrationTooltip}"/>-->
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell
@@ -94,11 +83,11 @@
 												backgroundColorShade="ShadeA">
 												<l:VerticalLayout>
 													<core:Icon
-														src="sap-icon://source-code"
+														src="sap-icon://developer-settings"
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
-														text="{i18n>supplierTitle}"
+														text="Entwicklungswerkzeuge"
 														level="H3"
 														titleStyle="H2"
 														class="sapUiTinyMarginTopBottom"/>
@@ -114,16 +103,6 @@
 														<m:Token text="C++" />
 														<m:Token text="C" />
 													</m:Tokenizer>
-													
-												<!--	<Text SAPUI5, C++, C, Python, HTML5, JavaScript, CSS
-														text="{i18n>supplierContent}"
-														class="sapUiTinyMarginBottom"/>
-													<Link
-														text="{i18n>accessLink}"
-														tooltip="{i18n>accessSuppliersLink}"/>
-													<Link
-														text="{i18n>learnLink}"
-														tooltip="{i18n>learnSuppliersTooltip}"/>-->
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 										</l:BlockLayoutRow>
@@ -205,12 +184,12 @@
 												backgroundColorShade="ShadeA">
 												<l:VerticalLayout>
 													<core:Icon
-														src="sap-icon://customer"
+														src="sap-icon://activities"
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
 														id="administrationTile"
-														text="{i18n>administrationTitle}"
+														text="Joro3D-SCANplus"
 														level="H3"
 														titleStyle="H2"
 														class="sapUiTinyMarginTopBottom"/>
@@ -255,11 +234,11 @@
 												backgroundColorShade="ShadeD">
 												<l:VerticalLayout>
 													<core:Icon
-														src="sap-icon://source-code"
+														src="sap-icon://developer-settings"
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
-														text="{i18n>supplierTitle}"
+														text="Entwicklungswerkzeuge"
 														level="H3"
 														titleStyle="H2"
 														class="sapUiTinyMarginTopBottom"/>
