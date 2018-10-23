@@ -17,6 +17,8 @@
 				accessibleRole="Region"
 				class="sapUiNoContentPadding">
 					<VBox class="sapUiSmallMargin">
+						
+						
 						<Text text="
 					Datenschutzerklärung" />
 					
@@ -75,6 +77,8 @@ Diese Speicherung erfolgt auf der Rechtsgrundlage von Art. 6 Abs. 1 lit. f) DSGV
 Die Daten werden spätestens nach sieben Tage wieder gelöscht, soweit keine weitere Aufbewahrung zu Beweiszwecken erforderlich ist. Andernfalls sind die Daten bis zur endgültigen Klärung eines Vorfalls ganz oder teilweise von der Löschung ausgenommen.
 					"
 						/>
+						
+						
 					</VBox>
 		</Panel>
 	</content>

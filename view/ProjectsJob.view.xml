@@ -1,0 +1,136 @@
+<mvc:View
+	controllerName="sap.ui.demo.toolpageapp.controller.ProjectsJob"
+	xmlns="sap.uxap"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:m="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:Page
+		showHeader="{device>/system/phone}"
+		showNavButton="{device>/system/phone}"
+		navButtonPress="onNavButtonPress">
+		<m:landmarkInfo>
+			<m:PageAccessibleLandmarkInfo
+				rootRole="Region"
+				rootLabel="{i18n>SystemSettings_rootLabel}"
+				contentRole="Main"
+				contentLabel="{i18n>SystemSettings_contentLabel}"/>
+		</m:landmarkInfo>
+		<ObjectPageLayout id="objectPageLayout">
+			<headerTitle>
+				<ObjectPageHeader
+					objectTitle="Beruflich"
+					objectSubtitle="{i18n>systemSettingsDescriptionTitle}">
+				</ObjectPageHeader>
+			</headerTitle>
+			<headerContent>
+			</headerContent>
+			<sections>
+				<ObjectPageSection>
+				<subSections>
+					<ObjectPageSubSection
+						id="shopOwnerId"
+						title="BihlerNET">
+						<blocks>
+							<ObjectPageLazyLoader
+								id="shopOwnerLazyLoader">
+								
+								<l:VerticalLayout
+									width="100%"
+									class="gridWrapper">
+									<l:Grid
+										containerQuery="true"
+										defaultSpan="XL6 L6">
+										
+										<m:Table>
+												<m:columns>
+													<m:Column
+														width="12em">
+														<m:Text text="Product" />
+													</m:Column>
+													<m:Column
+														minScreenWidth="Tablet"
+														demandPopin="true">
+														<m:Text text="Supplier" />
+													</m:Column>
+													<m:Column
+														minScreenWidth="Desktop"
+														demandPopin="true">
+														<m:Text text="Dimensions" />
+													</m:Column>
+												</m:columns>
+												<m:items>
+													<m:ColumnListItem>
+														<m:cells>
+															<m:ObjectIdentifier
+																text="ProductId"/>
+															<m:Text
+																text="SupplierName" />
+															<m:Text
+																text="Width" />
+														</m:cells>
+													</m:ColumnListItem>
+												</m:items>
+												<m:items>
+													<m:ColumnListItem>
+														<m:cells>
+															<m:ObjectIdentifier
+																text="sdfsfd"/>
+															<m:Text
+																text="SuppsfdsdflierName" />
+															<m:Text
+																text="Widthsfsdf" />
+														</m:cells>
+													</m:ColumnListItem>
+												</m:items>
+										</m:Table>
+									
+										<m:Carousel class="sapUiContentPadding" loop="true">
+											<m:pages>
+												<m:Image
+												src="{
+													path: 'view>/isPhone',
+													formatter: '.formatter.srcImageValue'
+												}"
+												width="100%"/>
+												<m:Image
+												src="{
+													path: 'view>/isPhone',
+													formatter: '.formatter.srcImageValueSecond'
+												}"
+												width="100%"/>
+											</m:pages>
+										</m:Carousel>
+									</l:Grid>
+								</l:VerticalLayout>
+								
+							</ObjectPageLazyLoader>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+				</ObjectPageSection>
+				<ObjectPageSection>
+					<subSections>
+						<ObjectPageSubSection
+							id="shopConfigurationId"
+							title="{i18n>shopConfigurationTitle}">
+							<blocks>
+								<ObjectPageLazyLoader
+									id="shopConfigurationLazyLoader">
+									<m:Image
+										src="{
+											path: 'view>/isPhone',
+											formatter: '.formatter.srcImageValue'
+										}"
+										width="100%"
+										height="100%"/>
+								</ObjectPageLazyLoader>
+							</blocks>
+						</ObjectPageSubSection>
+					</subSections>
+				</ObjectPageSection>
+			</sections>
+		</ObjectPageLayout>
+	</m:Page>
+</mvc:View>

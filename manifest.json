@@ -115,6 +115,11 @@
 					"pattern": "Legal",
 					"name": "legal",
 					"target": "legal"
+				},
+				{
+					"pattern": "ProjectsJob",
+					"name": "projectsJob",
+					"target": "projectsJob"
 				}
 			],
 			"targets": {
@@ -216,6 +221,16 @@
 				"legal": {
 					"viewId": "legal",
 					"viewName": "Legal",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"projectsJob": {
+					"viewId": "projectsJob",
+					"viewName": "ProjectsJob",
 					"routerClass": "sap.m.routing.Router",
 					"controlId": "mainContents",
 					"viewType": "XML",

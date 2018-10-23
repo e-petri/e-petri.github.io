@@ -6,7 +6,7 @@
 	xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc">
 	<m:Page
-		showHeader="{device>/system/phone}"
+		sshowHeader="{device>/system/phone}"
 		showNavButton="{device>/system/phone}"
 		navButtonPress="onNavButtonPress">
 		<m:landmarkInfo>
