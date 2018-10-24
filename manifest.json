@@ -132,6 +132,11 @@
 					"pattern": "ProjectsPrivate",
 					"name": "projectsPrivate",
 					"target": "projectsPrivate"
+				},
+				{
+					"pattern": "ProjectsUni",
+					"name": "projectsUni",
+					"target": "projectsUni"
 				}
 			],
 			"targets": {
@@ -253,6 +258,16 @@
 				"projectsPrivate": {
 					"viewId": "projectsPrivate",
 					"viewName": "ProjectsPrivate",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"projectsUni": {
+					"viewId": "projectsUni",
+					"viewName": "ProjectsUni",
 					"routerClass": "sap.m.routing.Router",
 					"controlId": "mainContents",
 					"viewType": "XML",
