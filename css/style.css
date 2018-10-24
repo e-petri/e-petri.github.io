@@ -18,3 +18,7 @@
 .sapUxAPAnchorBar.sapMTB {
 	background-color: #FFFFFF;
 }
+
+.sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td, .sapMListShowSeparatorsAll .sapMListTblSubRow:last-child>td {
+	border-bottom: 0px solid #cccccc; 
+}

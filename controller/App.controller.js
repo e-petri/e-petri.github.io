@@ -44,7 +44,7 @@ sap.ui.define([
 				this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
 
 				// if the app starts on desktop devices with small or meduim screen size, collaps the sid navigation
-				if (Device.resize.width <= 1024) {
+				if (Device.resize.width <= 2024) {
 					this.onSideNavButtonPress();
 				}
 				Device.media.attachHandler(function (oDevice) {

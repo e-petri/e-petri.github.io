@@ -99,7 +99,61 @@
 							level="H3"
 							titleStyle="H2"
 							class="sapUiTinyMarginTopBottom"/>
-						<Tokenizer editable="false">
+						
+						<Table>
+								<columns>
+									<Column
+										width="30%">
+										<Text text="Bereich" />
+									</Column>
+									<Column
+										minScreenWidth="Tablet"
+										demandPopin="true">
+										<Text text="Details" />
+									</Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier
+												text="SAP"/>
+											<Text
+												text="AIN, CP, Leonardo IoT, Fiori, UI5" />
+										</cells>
+									</ColumnListItem>
+								</items>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier
+												text="AI"/>
+											<Text
+												text="Machine Learning, Deep Learning, Evo" />
+										</cells>
+									</ColumnListItem>
+								</items>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier
+												text="HCI"/>
+											<Text
+												text="UI/UX, Design, 3D-Visualisierung" />
+										</cells>
+									</ColumnListItem>
+								</items>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier
+												text="Software"/>
+											<Text
+												text="Design, Architecture, Requirements Engineering" />
+										</cells>
+									</ColumnListItem>
+								</items>
+						</Table>
+						<!--<Tokenizer editable="false">
 							<Token text="SAP AIN"/>
 							<Token text="SAP CP" />
 							<Token text="SAP Fiori" />
@@ -127,7 +181,8 @@
 						</Tokenizer>
 						<Tokenizer editable="false">
 							<Token text="Requirements Engineering" />
-						</Tokenizer>
+						</Tokenizer>-->
+						
 						<!--<Text  SAP AIN, SAP CP, SAP Leonardo IoT, SAP Fiori, IoT, Industrie 4.0, 3D Visualisierung, 3D-Messtechnik, Machine Learining, Computergrafik, Deep Learning, Requirements Engineering, UI/UX, Software Design, Software Architekture
 							text="{i18n>revenueContent}"
 							class="sapUiTinyMarginBottom"/>
