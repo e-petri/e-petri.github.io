@@ -1,5 +1,4 @@
 <mvc:View
-	controllerName="sap.ui.demo.toolpageapp.controller.ProjectsJob"
 	xmlns="sap.uxap"
 	xmlns:l="sap.ui.layout"
 	xmlns:f="sap.ui.layout.form"
@@ -15,10 +14,10 @@
 				contentRole="Main"
 				contentLabel="{i18n>SystemSettings_contentLabel}"/>
 		</m:landmarkInfo>
-		<ObjectPageLayout id="objectPageLayout">
+		<ObjectPageLayout>
 			<headerTitle>
 				<ObjectPageHeader
-					objectTitle="Beruflich"
+					objectTitle="Private Projekte"
 					objectSubtitle="{i18n>systemSettingsDescriptionTitle}">
 				</ObjectPageHeader>
 			</headerTitle>
@@ -28,14 +27,11 @@
 				<ObjectPageSection>
 				<subSections>
 					<ObjectPageSubSection
-						id="shopOwnerId"
-						title="BihlerNET">
+						title="Websites">
 						<blocks>
-							<ObjectPageLazyLoader
-								id="shopOwnerLazyLoader">
+							<ObjectPageLazyLoader>
 								
 								<l:BlockLayout
-										id="BlockLayout0"
 										background="Default">
 										<l:BlockLayoutRow>
 											<l:BlockLayoutCell
@@ -47,7 +43,7 @@
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
-														text="BihlerNET"
+														text="Websites"
 														level="H3"
 														titleStyle="H2"
 														class="sapUiTinyMarginTopBottom"/>
@@ -107,61 +103,6 @@
 											</l:BlockLayoutCell>
 										</l:BlockLayoutRow>
 									</l:BlockLayout>
-								
-								<!--<l:VerticalLayout
-									width="100%"
-									class="gridWrapper">
-									<l:Grid
-										containerQuery="true"
-										defaultSpan="XL6 L6">
-										
-										<m:Table>
-												<m:columns>
-													<m:Column
-														width="12em">
-														<m:Text text="Product" />
-													</m:Column>
-													<m:Column
-														minScreenWidth="Tablet"
-														demandPopin="true">
-														<m:Text text="Supplier" />
-													</m:Column>
-													<m:Column
-														minScreenWidth="Desktop"
-														demandPopin="true">
-														<m:Text text="Dimensions" />
-													</m:Column>
-												</m:columns>
-												<m:items>
-													<m:ColumnListItem>
-														<m:cells>
-															<m:ObjectIdentifier
-																text="ProductId"/>
-															<m:Text
-																text="SupplierName" />
-															<m:Text
-																text="Width" />
-														</m:cells>
-													</m:ColumnListItem>
-												</m:items>
-												<m:items>
-													<m:ColumnListItem>
-														<m:cells>
-															<m:ObjectIdentifier
-																text="sdfsfd"/>
-															<m:Text
-																text="SuppsfdsdflierName" />
-															<m:Text
-																text="Widthsfsdf" />
-														</m:cells>
-													</m:ColumnListItem>
-												</m:items>
-										</m:Table>
-									
-									
-									</l:Grid>
-								</l:VerticalLayout>-->
-								
 							</ObjectPageLazyLoader>
 						</blocks>
 					</ObjectPageSubSection>
@@ -170,13 +111,10 @@
 				<ObjectPageSection>
 					<subSections>
 						<ObjectPageSubSection
-							id="shopConfigurationId"
 							title="JORO3D-ScanPlus">
 							<blocks>
-								<ObjectPageLazyLoader
-									id="shopConfigurationLazyLoader">
+								<ObjectPageLazyLoader>
 									<l:BlockLayout
-										id="BlockLayout"
 										background="Default">
 										<l:BlockLayoutRow>
 											<l:BlockLayoutCell
@@ -188,7 +126,6 @@
 														size="2.5rem"
 														color="Default"/>
 													<m:Title
-														id="administrationTile"
 														text="Joro3D-SCANplus"
 														level="H3"
 														titleStyle="H2"
@@ -196,15 +133,6 @@
 													<m:Text
 														text="{i18n>administrationContent}"
 														class="sapUiTinyMarginBottom"/>
-													<!--<Text
-														text="{i18n>administrationContent2}"
-														class="sapUiTinyMarginBottom"/>
-													<Link
-														text="{i18n>accessLink}"
-														tooltip="{i18n>accessAdministrationLink}"/>
-													<Link
-														text="{i18n>learnLink}"
-														tooltip="{i18n>learnAdministrationTooltip}"/>-->
 												</l:VerticalLayout>
 											</l:BlockLayoutCell>
 											<l:BlockLayoutCell

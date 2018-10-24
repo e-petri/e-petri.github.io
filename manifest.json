@@ -127,6 +127,11 @@
 					"pattern": "ProjectsJob",
 					"name": "projectsJob",
 					"target": "projectsJob"
+				},
+				{
+					"pattern": "ProjectsPrivate",
+					"name": "projectsPrivate",
+					"target": "projectsPrivate"
 				}
 			],
 			"targets": {
@@ -238,6 +243,16 @@
 				"projectsJob": {
 					"viewId": "projectsJob",
 					"viewName": "ProjectsJob",
+					"routerClass": "sap.m.routing.Router",
+					"controlId": "mainContents",
+					"viewType": "XML",
+					"controlAggregation": "pages",
+					"viewPath": "sap.ui.demo.toolpageapp.view",
+					"async": true
+				},
+				"projectsPrivate": {
+					"viewId": "projectsPrivate",
+					"viewName": "ProjectsPrivate",
 					"routerClass": "sap.m.routing.Router",
 					"controlId": "mainContents",
 					"viewType": "XML",
