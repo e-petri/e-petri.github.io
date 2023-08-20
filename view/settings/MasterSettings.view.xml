@@ -5,7 +5,7 @@
 
 	<Page id="masterSettingsPage"
 		showHeader="false">
-		<landmarkInfo>
+		<!--<landmarkInfo>
 			<PageAccessibleLandmarkInfo
 				rootRole="Region"
 				rootLabel="{i18n>Master_rootLabel}"
@@ -21,6 +21,6 @@
 				title="{side>title}"
 				type="Navigation"
 				selected="{= ${device>/system/phone} ? false : ${side>selected}}"/>
-		</List>
+		</List>-->
 	</Page>
 </mvc:View>
