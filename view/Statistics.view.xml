@@ -11,7 +11,7 @@
 				contentLabel="{i18n>Statistics_contentLabel}"/>
 		</landmarkInfo>
 		<content>
-			<Panel
+			<!--<Panel
 				id="statisticsContainer"
 				accessibleRole="Region"
 				class="sapUiNoContentPadding">
@@ -29,7 +29,7 @@
 							tooltip="{i18n>refreshButtonTooltip}"/>
 					</Toolbar>
 				</headerToolbar>
-			</Panel>
+			</Panel>-->
 		</content>
 	</Page>
 </mvc:View>
