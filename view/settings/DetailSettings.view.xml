@@ -51,7 +51,7 @@
 				</m:MessageStrip>
 			</headerContent>
 			<sections>
-				<ObjectPageSection>
+				<!--<ObjectPageSection>
 				<subSections>
 					<ObjectPageSubSection
 						id="shopOwnerId"
@@ -210,7 +210,7 @@
 							</blocks>
 						</ObjectPageSubSection>
 					</subSections>
-				</ObjectPageSection>
+				</ObjectPageSection>-->
 			</sections>
 		</ObjectPageLayout>
 	</m:Page>
